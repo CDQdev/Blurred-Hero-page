@@ -1,9 +1,12 @@
+'@import url('https://fonts.googleapis.com/css?family=Ubuntu')
+
+
 * {
     box-sizing: border-box;
 }
 
 body {
-    font-family: 'Rooboto', Sans-serif;
+    font-family: 'Ubuntu', Sans-serif;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -11,4 +14,21 @@ body {
     height: 100vh;
     overflow: hidden;
     margin: 0;
+}
+
+.bg {
+    background: url(https://www.google.com/imgres?imgurl=https%3A%2F%2Fwww.newfoodmagazine.com%2Fwp-content%2Fuploads%2Fshutterstock_1424702054-750x500.jpg&imgrefurl=https%3A%2F%2Fwww.newfoodmagazine.com%2Farticle%2F161957%2Fsingle-origin-coffee-what-is-it-and-why-are-consumers-opting-for-it%2F&tbnid=lN493mE_ALfJiM&vet=12ahUKEwiVq7TztdD2AhWFB3cKHVH2Ch4QMyhCegUIARC_AQ..i&docid=kGBo5MpE5MfXBM&w=750&h=500&q=coffee&ved=2ahUKEwiVq7TztdD2AhWFB3cKHVH2Ch4QMyhCegUIARC_AQ);
+    no-repeat center center/cover;
+    position: absolute;
+    top: -30;
+    left: -30;
+    width: calc(100vw + 60px);
+    height: calc(100vh + 60px):
+    z-index: -1;
+    filter: blur(0px);
+}
+
+.loading-text {
+    font-sixe: 50px;
+    color: #fff;
 }
